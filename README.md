@@ -11,7 +11,7 @@ An easy modal controller for prompting a reCAPTCHA verification. This works on a
 On successful completion, the challenge response string will be passed to the solved closure.
 
 ## Usage
-The captcha screeen (`UIViewController`) is presented modally as it will require considerable screen estate for the challenge. It can be instantiated like so:
+The captcha screen (`UIViewController`) is presented modally as it will require considerable screen estate for the challenge. It can be instantiated like so:
 
 ```Swift
 let controller = RecaptchaController(siteKey: siteKey, url: url, backgroundColor: .white,
