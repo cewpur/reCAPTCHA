@@ -3,10 +3,10 @@
 <img src="https://raw.githubusercontent.com/cewpur/reCAPTCHA/master/demo/demo-light.gif" /> <img src="https://raw.githubusercontent.com/cewpur/reCAPTCHA/master/demo/demo-dark.gif" />
 
 ## About
-An easy modal controller for prompting a reCAPTCHA verification. This works on a `WKWebView` which first loads the target site with your captcha gate - to harvest any cookies or sessions - before JavaScript is injected to clear the page and center a reCAPTCHA component. The following captcha JS callbacks are bridged to Swift:
+An easy modal controller for prompting a reCAPTCHA verification. This works on a `WKWebView` first loading the target site with your captcha gate - implicitly harvesting any cookies or sessions - before JavaScript is injected to clear the page and center a reCAPTCHA component. The following captcha JS callbacks are bridged to Swift:
 * Load
 * Solve
-* Expiration
+* Expire
 
 On successful completion, the challenge response string will be passed to the solved closure.
 
